@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "918757972306",
+    "project_id": "mutho-browser",
+    "storage_bucket": "mutho-browser.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918757972306:android:7233d274d050fb192c828b",
+        "android_client_info": {
+          "package_name": "com.muthopay.muthobrowser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918757972306-iut93i8jndmrk4amqbln9hpjo1sqbmn5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muthopay.muthobrowser",
+            "certificate_hash": "b8457dc8154d95d24dd10113f43173b1560f83cb"
+          }
+        },
+        {
+          "client_id": "918757972306-lcj1g6uornkl8v881g842q6mepo8r8ke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMpQiNfT6c99uwZm7MhARCdsWMVVyoKn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918757972306-lcj1g6uornkl8v881g842q6mepo8r8ke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
