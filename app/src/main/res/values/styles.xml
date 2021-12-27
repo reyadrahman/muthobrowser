@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.App.Light.Settings" parent="Theme.App.Light">
+        <item name="android:windowBackground">?android:attr/colorBackground</item>
+        <item name="colorPrimary">?android:attr/colorBackground</item>
+        <item name="colorPrimaryDark">?android:attr/colorBackground</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.MaterialComponents.Dark.ActionBar</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
+    </style>
+
+    <style name="Theme.App.Dark.Settings" parent="Theme.App.Dark">
+        <item name="android:windowBackground">?android:attr/colorBackground</item>
+        <item name="colorPrimary">?android:attr/colorBackground</item>
+        <item name="colorPrimaryDark">?android:attr/colorBackground</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.MaterialComponents.Dark.ActionBar</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
+    </style>
+
+    <style name="Theme.App.Black.Settings" parent="Theme.App.Black">
+        <item name="android:windowBackground">?android:attr/colorBackground</item>
+        <item name="colorPrimary">?android:attr/colorBackground</item>
+        <item name="colorPrimaryDark">?android:attr/colorBackground</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.MaterialComponents.Dark.ActionBar</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
+    </style>
+
+    <style name="Theme.App.DayNight.Settings" parent="Theme.App.DayNight">
+        <item name="android:windowBackground">?android:attr/colorBackground</item>
+        <item name="colorPrimary">?android:attr/colorBackground</item>
+        <item name="colorPrimaryDark">?android:attr/colorBackground</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.MaterialComponents.Dark.ActionBar</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
+    </style>
+
+    <style name="Theme.App.Light" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/red_500</item>
+        <item name="colorPrimaryVariant">@color/grey_1</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/red_500</item>
+        <item name="colorSecondaryVariant">@color/red_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorOnBackground">@color/black</item>
+        <item name="trackColor">@color/grey_0</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="colorError">@color/red_500</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="appColorControlEnabled">@color/grey_5</item>
+        <item name="appColorControlSelected">?attr/colorOnPrimary</item>
+        <item name="appColorControlDisabled">@color/grey_3</item>
+        <item name="colorControlNormal">@color/state_color_control</item>
+        <item name="haloColor">@color/white</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay.App.Dialog.Alert</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowDisablePreview">false</item>
+        <item name="colorPrimaryDark">@color/transparent</item>
+        <item name="autoCompleteTitleColor">@color/black</item>
+        <item name="autoCompleteUrlColor">@color/hint_text_light_theme</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="snackbarStyle">@style/MaterialSnackbarTheme</item>
+        <item name="snackbarButtonStyle">@style/MaterialSnackbarTextButtonTheme</item>
+        <item name="appBarLayoutStyle">@style/Widget.App.AppBarLayout.Light</item>
+        <item name="materialCardViewStyle">@style/Widget.App.CardView</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.App.LargeComponent</item>
+        <item name="popupMenuBackground">@drawable/popup_menu_background</item>
+        <item name="navigationViewStyle">@drawable/session_menu_background</item>
+        <item name="enableEdgeToEdge">true</item>
+    </style>
+
+    <style name="Theme.App.Dark" parent="Theme.MaterialComponents">
+        <item name="colorPrimary">@color/red_300</item>
+        <item name="colorPrimaryVariant">@color/grey_6</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/red_300</item>
+        <item name="colorSecondaryVariant">@color/red_500</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/grey_8</item>
+        <item name="android:navigationBarColor">@color/grey_8</item>
+        <item name="colorOnBackground">@color/white</item>
+        <item name="trackColor">@color/grey_7</item>
+        <item name="colorSurface">@color/grey_6</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorError">@color/red_500</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="appColorControlEnabled">@color/grey_2</item>
+        <item name="appColorControlSelected">?attr/colorOnPrimary</item>
+        <item name="appColorControlDisabled">@color/grey_4</item>
+        <item name="colorControlNormal">@color/state_color_control</item>
+        <item name="haloColor">@color/grey_8</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay.App.Dialog.Alert</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog.Dark</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowDisablePreview">false</item>
+        <item name="colorPrimaryDark">@color/transparent</item>
+        <item name="autoCompleteTitleColor">@color/white</item>
+        <item name="autoCompleteUrlColor">@color/hint_text_dark_theme</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="snackbarStyle">@style/MaterialSnackbarTheme.Dark</item>
+        <item name="snackbarTextViewStyle">@style/MaterialSnackbarTextViewTheme.Dark</item>
+        <item name="snackbarButtonStyle">@style/MaterialSnackbarTextButtonTheme.Dark</item>
+        <item name="materialCardViewStyle">@style/Widget.App.CardView</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.App.LargeComponent</item>
+        <item name="popupMenuBackground">@drawable/popup_menu_background</item>
+        <item name="navigationViewStyle">@drawable/session_menu_background</item>
+        <item name="enableEdgeToEdge">true</item>
+    </style>
+
+    <style name="Theme.App.Black" parent="Theme.MaterialComponents">
+        <item name="colorPrimary">@color/red_300</item>
+        <item name="colorPrimaryVariant">@color/grey_8</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/red_300</item>
+        <item name="colorSecondaryVariant">@color/red_500</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="colorOnBackground">@color/white</item>
+        <item name="trackColor">@color/grey_9</item>
+        <item name="colorSurface">@color/grey_9</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorError">@color/red_500</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="appColorControlEnabled">@color/grey_2</item>
+        <item name="appColorControlSelected">?attr/colorOnPrimary</item>
+        <item name="appColorControlDisabled">@color/grey_4</item>
+        <item name="colorControlNormal">@color/state_color_control</item>
+        <item name="haloColor">@color/black</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay.App.Dialog.Alert</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog.Black</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowDisablePreview">false</item>
+        <item name="colorPrimaryDark">@color/transparent</item>
+        <item name="autoCompleteTitleColor">@color/white</item>
+        <item name="autoCompleteUrlColor">@color/hint_text_dark_theme</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="snackbarStyle">@style/MaterialSnackbarTheme.Dark</item>
+        <item name="snackbarTextViewStyle">@style/MaterialSnackbarTextViewTheme.Dark</item>
+        <item name="snackbarButtonStyle">@style/MaterialSnackbarTextButtonTheme.Dark</item>
+        <item name="materialCardViewStyle">@style/Widget.App.CardView</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.App.LargeComponent</item>
+        <item name="popupMenuBackground">@drawable/popup_menu_background</item>
+        <item name="navigationViewStyle">@drawable/session_menu_background</item>
+        <item name="enableEdgeToEdge">true</item>
+    </style>
+
+    <style name="Theme.App.DayNight" parent="Theme.App.Light" />
+
+    <style name="boldText">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="italicText">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="normalText">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="BrowserTextMenuItem" parent="@style/Widget.AppCompat.ActionButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="paddingEnd">30dp</item>
+        <item name="paddingStart">30dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:paddingLeft">12dp</item>
+    </style>
+
+    <style name="AnimationMenu">
+        <item name="android:windowEnterAnimation">@anim/menu_open</item>
+        <item name="android:windowExitAnimation">@anim/menu_close</item>
+    </style>
+
+    <style name="AnimationMenuBottom">
+        <item name="android:windowEnterAnimation">@anim/menu_open_bottom</item>
+        <item name="android:windowExitAnimation">@anim/menu_close_bottom</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Dialog.Alert" parent="@style/ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="android:background">?attr/trackColor</item>
+    </style>
+
+    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle.Light</item>
+    </style>
+
+    <style name="ThemeOverlay.App.MaterialAlertDialog.Dark" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="colorSurface">@color/grey_8</item>
+        <item name="elevationOverlayEnabled">false</item>
+    </style>
+
+    <style name="ThemeOverlay.App.MaterialAlertDialog.Black" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="colorSurface">@color/grey_9</item>
+        <item name="elevationOverlayEnabled">false</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">?attr/colorSecondary</item>
+        <item name="rippleColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/white</item>
+        <item name="rippleColor">@color/grey_5</item>
+    </style>
+
+    <style name="NegativeButtonStyle.Light" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/black</item>
+        <item name="rippleColor">@color/grey_3</item>
+    </style>
+
+    <style name="MaterialSnackbarTheme" parent="@style/Widget.MaterialComponents.Snackbar">
+        <item name="actionTextColorAlpha">1</item>
+    </style>
+
+    <style name="MaterialSnackbarTheme.Dark" parent="@style/Widget.MaterialComponents.Snackbar">
+        <item name="android:backgroundTint">?attr/colorSurface</item>
+        <item name="actionTextColorAlpha">1</item>
+    </style>
+
+    <style name="MaterialSnackbarTextViewTheme.Dark" parent="@style/Widget.MaterialComponents.Snackbar.TextView">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MaterialSnackbarTextButtonTheme" parent="@style/Widget.MaterialComponents.Button.TextButton.Snackbar">
+        <item name="android:textColor">?attr/colorSecondary</item>
+    </style>
+
+    <style name="MaterialSnackbarTextButtonTheme.Dark" parent="@style/Widget.MaterialComponents.Button.TextButton.Snackbar">
+        <item name="android:textColor">?attr/colorSecondary</item>
+    </style>
+
+    <style name="Widget.App.AppBarLayout.Light" parent="Widget.Design.AppBarLayout">
+        <item name="android:background">@color/grey_1</item>
+    </style>
+
+    <style name="Widget.App.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="checkedIconMargin">4dp</item>
+        <item name="checkedIconSize">6dp</item>
+        <item name="checkedIcon">@drawable/ic_circle</item>
+        <item name="checkedIconTint">?attr/colorSecondary</item>
+        <item name="cardForegroundColor">@color/card_view_foreground</item>
+    </style>
+
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="ShapeAppearance.App.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="Accent_Red">
+        <item name="colorPrimary">#EF5350</item>
+        <item name="colorSecondary">#EF5350</item>
+        <item name="colorAccent">#EF5350</item>
+    </style>
+
+    <style name="Accent_Pink">
+        <item name="colorPrimary">#EC407A</item>
+        <item name="colorSecondary">#EC407A</item>
+        <item name="colorAccent">#EC407A</item>
+    </style>
+
+    <style name="Accent_Puple">
+        <item name="colorPrimary">#AB47BC</item>
+        <item name="colorSecondary">#AB47BC</item>
+        <item name="colorAccent">#AB47BC</item>
+    </style>
+
+    <style name="Accent_Deep_Purple">
+        <item name="colorPrimary">#7E57C2</item>
+        <item name="colorSecondary">#7E57C2</item>
+        <item name="colorAccent">#7E57C2</item>
+    </style>
+
+    <style name="Accent_Indigo">
+        <item name="colorPrimary">#5C6BC0</item>
+        <item name="colorSecondary">#5C6BC0</item>
+        <item name="colorAccent">#5C6BC0</item>
+    </style>
+
+    <style name="Accent_Blue">
+        <item name="colorPrimary">#42A5F5</item>
+        <item name="colorSecondary">#42A5F5</item>
+        <item name="colorAccent">#42A5F5</item>
+    </style>
+
+    <style name="Accent_Light_Blue">
+        <item name="colorPrimary">#29B6F6</item>
+        <item name="colorSecondary">#29B6F6</item>
+        <item name="colorAccent">#29B6F6</item>
+    </style>
+
+    <style name="Accent_Cyan">
+        <item name="colorPrimary">#26C6DA</item>
+        <item name="colorSecondary">#26C6DA</item>
+        <item name="colorAccent">#26C6DA</item>
+    </style>
+
+    <style name="Accent_Teal">
+        <item name="colorPrimary">#26A69A</item>
+        <item name="colorSecondary">#26A69A</item>
+        <item name="colorAccent">#26A69A</item>
+    </style>
+
+    <style name="Accent_Green">
+        <item name="colorPrimary">#66BB6A</item>
+        <item name="colorSecondary">#66BB6A</item>
+        <item name="colorAccent">#66BB6A</item>
+    </style>
+
+    <style name="Accent_Light_Green">
+        <item name="colorPrimary">#9CCC65</item>
+        <item name="colorSecondary">#9CCC65</item>
+        <item name="colorAccent">#9CCC65</item>
+    </style>
+
+    <style name="Accent_Lime">
+        <item name="colorPrimary">#D4E157</item>
+        <item name="colorSecondary">#D4E157</item>
+        <item name="colorAccent">#D4E157</item>
+    </style>
+
+    <style name="Accent_Yellow">
+        <item name="colorPrimary">#FFEE58</item>
+        <item name="colorSecondary">#FFEE58</item>
+        <item name="colorAccent">#FFEE58</item>
+    </style>
+
+    <style name="Accent_Amber">
+        <item name="colorPrimary">#FFCA28</item>
+        <item name="colorSecondary">#FFCA28</item>
+        <item name="colorAccent">#FFCA28</item>
+    </style>
+
+    <style name="Accent_Orange">
+        <item name="colorPrimary">#FFA726</item>
+        <item name="colorSecondary">#FFA726</item>
+        <item name="colorAccent">#FFA726</item>
+    </style>
+
+    <style name="Accent_Deep_Orange">
+        <item name="colorPrimary">#FF7043</item>
+        <item name="colorSecondary">#FF7043</item>
+        <item name="colorAccent">#FF7043</item>
+    </style>
+
+    <style name="Accent_Brown">
+        <item name="colorPrimary">#8D6E63</item>
+        <item name="colorSecondary">#8D6E63</item>
+        <item name="colorAccent">#8D6E63</item>
+    </style>
+</resources>
