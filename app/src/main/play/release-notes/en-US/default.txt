@@ -1,1 +1,5 @@
 
+
+- Fixed Branding Related Issues
+- Updated With New Interfaces
+- Launched On Play Store As Mutho Browser
